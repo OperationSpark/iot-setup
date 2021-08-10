@@ -38,9 +38,15 @@ All of the above should already have been done if you are in the advanced course
  * Walk through the installation using the default options
  * Restart your computer
 
+### Set up Workspace
+ - Windows users, enter "CTRL + SHIFT + P". Mac users, enter "CMD + SHIFT + P".
+ - In the form that opens up, type `"git clone"` and select the `Git: Clone` option.
+ - Click `Clone from GitHub`
+ - Authorize GitHub
+ - Go to your GitHub repository on GitHub, click the green `Code` button, and copy the URL provided to you into the VS Code form.
+
 ### Final VS Code Setup Steps
- - Open up the Extensions section of VS Code and and search for "open in browser". You should see a version of "open in browser" with version 2.0.0 by "TechER". Click "Install" for this extension. This will allow you to open up any HTML files you create directly in your browser by right-clicking on the file (in the VS Code file browser) and selecting "Open in Default Browser".
- - Open up a new Terminal in VS Code. Type `git clone https://github.com/<your github username>/<your github username>.github.io` to place a copy of your main repository on your machine. 
+ - Open up the Extensions section of VS Code and and search for "live server". You should see a version of "live server" with version 5.6.1 by "Ritwick Dey". Click "Install" for this extension. This will allow you to open up any HTML files you create directly in your browser by right-clicking on the file (in the VS Code file browser) and selecting "Open with Live Server".
 
 ## 2) Install your projects
 
