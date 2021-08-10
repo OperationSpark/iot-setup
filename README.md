@@ -13,9 +13,38 @@ Before continuing on to the next steps, make sure that you have done the followi
 
 All of the above should already have been done if you are in the advanced course, but if they are not, see the <a href="https://github.com/OperationSpark/fsd-setup">fsd-setup instructions</a> for how to do so.
 
-## 1) Install your projects
+## 1) Set up your computer
 
-Open your Gitpod workspace. With your workspace open, find the bash terminal and enter these commands one at a time:
+### Install Visual Studio Code (VS Code for short)
+ - We will be running all of our projects on our own machines for this class. To that end, we will make use of Visual Studio Code.
+ - If you are on a Mac, you may already have Visual Studio Code already installed. If it is not, you can download the installer here (https://code.visualstudio.com/download).
+ #### Mac Installation
+ - Download the only option available and walk through the setup using the default options.
+ #### Windows Installation
+ - Download the 64 bit System Installer and walk through the setup using the default options. You might want to set a Desktop shortcut
+ 
+### Further Windows Setup
+ - If you use Windows, adding in Bash and Git support will make your life much easier with these projects. In Windows 10, the easiest way to do this is with the following steps:
+ 
+ #### Bash Support
+ * Click in the Windows search area and type "Powershell"
+ * Right click on "Windows PowerShell" and select "Run as administrator"
+ * Paste the following into the PowerShell terminal: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
+ * Confirm that this is what you want to do and restart your computer after the prompt (or after PowerShell finishes working if the prompt doesn't appear)
+ * Reopen VS Code. You should see a prompt to install WSL (Windows Subsystem for Linux). Install this. If the prompt doesn't show up, then search for Remote - WSL in the Extensions section of VS Code.
+ 
+ #### Git support
+ * Go to https://git-scm.com/download/win and download the Git installer
+ * Walk through the installation using the default options
+ * Restart your computer
+
+### Final VS Code Setup Steps
+ - Open up the Extensions section of VS Code and and search for "open in browser". You should see a version of "open in browser" with version 2.0.0 by "TechER". Click "Install" for this extension. This will allow you to open up any HTML files you create directly in your browser by right-clicking on the file (in the VS Code file browser) and selecting "Open in Default Browser".
+ - Open up a new Terminal in VS Code. Type `git clone https://github.com/<your github username>/<your github username>.github.io` to place a copy of your main repository on your machine. 
+
+## 2) Install your projects
+
+Open your VS Code workspace. With your workspace open, find the bash terminal and enter these commands one at a time:
 * `git clone https://github.com/OperationSpark/iot-setup.git`
 * `chmod +x iot-setup/setup.sh`
 * `./iot-setup/setup.sh`
@@ -23,7 +52,7 @@ Open your Gitpod workspace. With your workspace open, find the bash terminal and
 
 Enter your username and your password.
 
-## 2) Push your code
+## 3) Push your code
 
 Down in the bash terminal, enter these commands:
 
