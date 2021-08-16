@@ -1,6 +1,4 @@
 #!/bin/bash
-read -p "Enter Your GitHub Username: "  username
-read -s -p "Enter Your GitHub Password: "  password
 
 printf "\n"
 
@@ -11,15 +9,15 @@ fi
 mkdir iot-projects
 cd iot-projects
 
-git clone https://${username}:${password}@github.com/operationspark/underpants-micro underpants-micro
-git clone https://${username}:${password}@github.com/operationspark/test-guru test-guru
-git clone https://${username}:${password}@github.com/operationspark/are-you-being-served are-you-being-served
-git clone https://${username}:${password}@github.com/operationspark/interface-inyourface interface-inyourface
-git clone https://${username}:${password}@github.com/operationspark/hardware-tests hardware-tests
-git clone https://${username}:${password}@github.com/operationspark/first-slice-of-pi first-slice-of-pi
-git clone https://${username}:${password}@github.com/operationspark/second-slice-of-pi second-slice-of-pi
-git clone https://${username}:${password}@github.com/operationspark/pi-inyourface pi-inyourface
-git clone https://${username}:${password}@github.com/operationspark/iot-automatic-routing automatic-routing
+git clone https://github.com/operationspark/underpants-micro underpants-micro
+git clone https://github.com/operationspark/test-guru test-guru
+git clone https://github.com/operationspark/are-you-being-served are-you-being-served
+git clone https://github.com/operationspark/interface-inyourface interface-inyourface
+git clone https://github.com/operationspark/hardware-tests hardware-tests
+git clone https://github.com/operationspark/first-slice-of-pi first-slice-of-pi
+git clone https://github.com/operationspark/second-slice-of-pi second-slice-of-pi
+git clone https://github.com/operationspark/pi-inyourface pi-inyourface
+git clone https://github.com/operationspark/iot-automatic-routing automatic-routing
 
 if ! test -e underpants-micro || ! test -e test-guru || ! test -e are-you-being-served || ! test -e interface-inyourface || ! test -e hardware-tests || ! test -e first-slice-of-pi || ! test -e second-slice-of-pi || ! test -e pi-inyourface || ! test -e automatic-routing; then
     printf "\nFAILURE: Some projects could not be accessed on GitHub. Please run the script again."
