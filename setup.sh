@@ -34,8 +34,8 @@ else
     cd ../interface-inyourface
     rm -rf .git* .master
 
-    #hardware-testing
-    cd ../hardware-testing
+    #hardware-tests
+    cd ../hardware-tests
     rm -rf .git* .master
 
     #first-slice-of-pi
