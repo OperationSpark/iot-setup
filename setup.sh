@@ -9,7 +9,7 @@ fi
 mkdir iot-projects
 cd iot-projects
 
-git clone https://github.com/operationspark/underpants-micro underpants-micro
+git clone https://github.com/operationspark/underpants-lite underpants-lite
 git clone https://github.com/operationspark/test-guru test-guru
 git clone https://github.com/operationspark/are-you-being-served are-you-being-served
 git clone https://github.com/operationspark/interface-inyourface interface-inyourface
@@ -19,11 +19,11 @@ git clone https://github.com/operationspark/second-slice-of-pi second-slice-of-p
 git clone https://github.com/operationspark/pi-inyourface pi-inyourface
 git clone https://github.com/operationspark/iot-automatic-routing automatic-routing
 
-if ! test -e underpants-micro || ! test -e test-guru || ! test -e are-you-being-served || ! test -e interface-inyourface || ! test -e hardware-tests || ! test -e first-slice-of-pi || ! test -e second-slice-of-pi || ! test -e pi-inyourface || ! test -e automatic-routing; then
+if ! test -e underpants-lite || ! test -e test-guru || ! test -e are-you-being-served || ! test -e interface-inyourface || ! test -e hardware-tests || ! test -e first-slice-of-pi || ! test -e second-slice-of-pi || ! test -e pi-inyourface || ! test -e automatic-routing; then
     printf "\nFAILURE: Some projects could not be accessed on GitHub. Please run the script again."
 else
-    #underpants-micro
-    cd underpants-micro
+    #underpants-lite
+    cd underpants-lite
     rm -rf .git* .master
 
     #test-guru
