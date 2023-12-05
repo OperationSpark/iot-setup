@@ -56,8 +56,6 @@ Open your VS Code workspace. With your workspace open, find the bash terminal an
 * `./iot-setup/setup.sh`
 * `rm -rf ./iot-setup`
 
-Enter your username and your password.
-
 ## 3) Push your code
 
 Down in the bash terminal, enter these commands:
