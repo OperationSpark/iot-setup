@@ -70,16 +70,16 @@ curl -sSL https://raw.githubusercontent.com/OperationSpark/iot-setup/main/setup.
 In your VS Code workspace, open your `portfolio.html` file. Below the list of asd projects, add the following html:
 
 ```HTML
-<h2>IOT Projects</h2>
+<h2>IOT Projects (Not all links will work; some require locally run servers)</h2>
 <ul id ="portfolio">
     <li><a href="iot-projects/underpants-lite"> Underpants Lite: Complete a small library of functions</a></li>
     <li><a href="iot-projects/are-you-being-served"> Are You Being Served: Create a server to handle requests from clients</a></li>
     <li><a href="iot-projects/catch-server"> Catch Server: Create a server that catches errors while running</a></li>
-    <li><a href="iot-projects/interface-inyourface"> Interface InYourFace: Use simulated data to display information</a></li>
+    <li><a href="iot-projects/interface-inyourface/polling-temp-charts.html"> Interface InYourFace: Use simulated data to display information</a></li>
     <li><a href="iot-projects/hardware-setup"> Hardware Setup: Set up hardware for IoT projects</a></li>
     <li><a href="iot-projects/first-slice-of-pi"> First Slice of Pi: Get started with Raspberry Pi</a></li>
-    <li><a href="iot-projects/second-slice-of-pi"> Second Slice of Pi: Continue learning about Raspberry Pi</a></li>
-    <li><a href="iot-projects/pi-inyourface"> Pi InYourFace: Build an interactive IoT application</a></li>
+    <li><a href="iot-projects/second-slice-of-pi/data-requester.html"> Second Slice of Pi: Continue learning about Raspberry Pi</a></li>
+    <li><a href="iot-projects/pi-inyourface/ws_client.html"> Pi InYourFace: Build an interactive IoT application</a></li>
     <li><a href="iot-projects/automatic-routing"> Automatic Routing: Implement automatic routing for IoT devices</a></li>
 </ul>
 ```
